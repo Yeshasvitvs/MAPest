@@ -19,12 +19,12 @@ bucket = struct;
 bucket.datasetRoot = fullfile(pwd, 'dataFloatingIWear');
 
 % Subject and task to be processed
-subjectID = 1;
-taskID = 5;
+subjectID = 2;
+taskID = 1;
 
 %% Options
-opts.analysis_48dofURDF = true;
-opts.analysis_66dofURDF = false;
+opts.analysis_48dofURDF = false;
+opts.analysis_66dofURDF = true;
 
 % Option for computing the estimated Sigma (default = FALSE)
 opts.Sigma_dgiveny = false;
